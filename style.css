@@ -19,18 +19,22 @@ body{
     
 }
 
-.product-heading,.product-description{
-    font-family: var(--Fraunces);
-    font-weight: bold;
-    font-size: 15px;
-}
+
 .product-heading{
     letter-spacing: 1px;
+    font-family: var(--Montserrat);
     font-size: 25px;
-    font-weight: lighter;
+    color: var(--Grayish_blue);
+    margin-left: 20px;
+    
 }
 .product-description{
     line-height: 25px;
+    font-size: 19px;
+    color: var(--Grayish_blue);
+    font-family: var(--Montserrat);
+    margin-left: 20px;
+
 }
 .ab{
     margin-left: 30px;
@@ -48,12 +52,45 @@ body{
 
 .product-name{
     font-size: 50px;
-    font-family: var(--fraunces);
+    font-family: var(--Fraunces);
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .product-icon-desktop{
     width: 400px;
     border-radius: 5px;
 }
+.product-price{
+    margin-left: 20px;
+    margin-bottom:15px;
+}
+
+
+.bonus-price{
+    font-family: var(--Fraunces);
+color:var(--Dark_cyan);
+font-size:40px;
+}
+.original-price{
+    text-decoration: line-through;
+    padding-left: 10px;
+    color: var(--Grayish_blue);
+    font-family: var(--Montserrat);
+}
+button{
+    background-color: var(--Dark_cyan);
+    color: var(--White);
+    font-family: var(--Montserrat);
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-style: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+}
+
 
 section{
     display: flex;
@@ -61,6 +98,7 @@ section{
     margin-left: 90px; */
    border-radius: 13px;
 }
+
 
 @media(max-width:414px){
   section{
@@ -78,7 +116,7 @@ width: 100%;
     display: none;
   }
   .ab{
-    margin: 0;
+    margin:0;
     padding: 0;
     border: 1px solid orange;
     
@@ -86,6 +124,9 @@ width: 100%;
   .about-product{
     border: 2px solid red;
   }
+.product-heading{
+    font-size: 15px;
+}
 
 }
 
