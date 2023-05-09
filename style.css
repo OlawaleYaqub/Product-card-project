@@ -138,4 +138,12 @@ width: 100%;
     .product-icon-mobile{
         display: none;
     }
+    section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 250px;
+    }
+    .product-price{
+        margin-bottom: 30px;
+    }
 }
